@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<title>Science Research | HOME</title>
+<meta name="description" content="Corporate Website">
+  <meta name="keywords" content="corporate website">
+  <meta name="author" content="Qhursiah, Qhursiah Ariffin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="shortcut icon" href="image/icon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body align="center">
+
+
+<div class="header">
+	<a href="#default" class="logo">ScienceResearch</a>
+  <div class="header-right">
+    <a class="active" href="index.html">Home</a>
+    <a href="journal.html">Journal</a>
+    <a href="faqs.html">FAQS</a>
+	<a href="contact.html">Contact</a>
+  </div>
+</div>
+
+
+<div class="bg-img">
+<br><br><br><br><br><br><br><br><br><br>
+<div class="transbox">
+<p>Search by journal, author, article name..</p>
+</div>
+<form class="example" action="journal.html" target="_self" style="margin:auto;max-width:600px">
+  <input type="text" placeholder="Begin your search here.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="action.html" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+    <footer align="left">
+        <div class="container_footer">
+            <div class="footer-content">
+                <div class="items">
+                    <a href="https://www.elsevier.com/en-xs" class="logo" target="_blank"><img src="image/publisher.png" alt="Elsevier" style="width:130px"></a>  
+                    <p> Copyright © 2021 Elsevier B.V. or its licensors or contributors. ScienceDirect ® is a registered trademark of Elsevier B.V.</p>
+                </div>
+
+                <div class="items">
+                    <h3> About</h3>
+                    <ul>
+                        <li><a href="faqs.html">FAQS</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                        <li><a href="https://www.elsevier.com/about/policies/privacy-principles" target="_blank">Privacy Policy</a></li>
+                        <li><a href="https://www.elsevier.com/legal/elsevier-website-terms-and-conditions" target="_blank">Terms and Conditions</a></li>
+                    </ul>                          
+                </div>
+				
+				<div class="items">
+                    <a href="https://www.relx.com/" class="logo1" target="_blank"><img src="image/relx.png" alt="RELX" style="width:130px"></a>                          
+                </div>
+
+            </div>
+            <hr>
+   <p class="end"><small>Page last updated on 10 July 2021. <br>Disclaimer: The recommended browser is Internet Edge, Chrome. |
+  <br>The recommended display for this website are 1332x680 |<br>This website are designed for IMS456 Individual Assignment.</small></p>
+        </div>
+    </footer>
+
+</body>
+</html>
